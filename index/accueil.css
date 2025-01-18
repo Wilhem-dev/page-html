@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    min-height: 100rem;
+    background-color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.connexion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 140px 20px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.80); /* Couleur de fond sombre semi-transparente */
+    background-blend-mode: darken; /* Mélange la couleur de fond avec l'image */
+}
+
+
+.hero-image {
+    margin-top: 20px;
+    background-color: #444;
+    color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 40px;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden; /* Pour éviter que les éléments enfants dépassent les coins arrondis */
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    background-color: #eee;
+    padding: 0px 0;
+    border-bottom: 1px solid #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.card-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-content button:hover {
+    background-color: #555;
+}
