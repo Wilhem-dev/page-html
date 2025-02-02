@@ -1,0 +1,76 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Définit la police du texte */
+    line-height: 1.6; /* Espace entre les lignes pour faciliter la lecture */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espacements par défaut */
+    background-color: #f0f0f0; /* Couleur de fond légèrement grise */
+}
+
+/* Style pour la barre de navigation */
+nav {
+    background-color: #333; /* Fond sombre pour la barre de navigation */
+    color: white; /* Texte blanc */
+    padding: 10px 0; /* Espacement en haut et en bas */
+}
+
+/* Style pour la liste non ordonnée dans la navigation */
+nav ul {
+    list-style: none; /* Supprime les puces des éléments de la liste */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Affiche les éléments horizontalement */
+    align-items: center; /* Aligne verticalement les éléments */
+}
+
+/* Style pour chaque élément de la liste dans la navigation */
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+}
+
+/* Style pour les liens dans la navigation */
+nav ul li a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: white; /* Couleur du texte des liens */
+}
+
+/* Style pour le logo */
+.logo {
+    height: 40px; /* Hauteur fixe pour le logo */
+    width: auto; /* Ajuste la largeur automatiquement pour garder les proportions */
+}
+
+.img {
+    height: 500px; /* Hauteur fixe pour le logo */
+    width: auto; /* Ajuste la largeur automatiquement pour garder les proportions */
+}
+
+/* Style pour l'en-tête */
+header {
+    text-align: center; /* Centre le texte horizontalement */
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanche */
+    padding: 20px; /* Ajoute de l'espace autour du texte */
+}
+
+/* Style pour chaque section du contenu principal */
+section {
+    margin: 20px; /* Espace autour de chaque section */
+    padding: 20px; /* Espace à l'intérieur de chaque section */
+    background-color: white; /* Fond blanc pour les sections */
+    border-radius: 8px; /* Arrondit les coins des sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+/* Style pour les titres de niveau 2 */
+h2 {
+    color: #333; /* Couleur de texte gris foncé */
+}
+
+/* Style pour le pied de page */
+footer {
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 10px; /* Espacement à l'intérieur du pied de page */
+    background-color: #333; /* Fond sombre */
+    color: white; /* Couleur du texte blanche */
+}
